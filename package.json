@@ -1,0 +1,38 @@
+{
+  "name": "fantastic-potato",
+  "version": "1.0.0",
+  "description": "Web Extension",
+  "private": true,
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
+    "serve": "node server.js",
+    "start": "node_modules/.bin/webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chpmnrssll/fantastic-potato.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/chpmnrssll/fantastic-potato/issues"
+  },
+  "homepage": "https://github.com/chpmnrssll/fantastic-potato#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}

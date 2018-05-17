@@ -1,2 +1,2 @@
 # fantastic-potato
-Web Extension
+Web Extension using Webpack 4
